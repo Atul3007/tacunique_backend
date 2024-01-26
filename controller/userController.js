@@ -1,7 +1,7 @@
 const userModel = require("../models/userModel");
 
 const getUsers = async (req, res) => {
-  const limit = parseInt(req.query._limit, 10) || 6;
+  const limit = parseInt(req.query._limit, 10) || 8;
   const page = parseInt(req.query._page, 10) || 1;
 
   try {
